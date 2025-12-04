@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        success: {
+          DEFAULT: "hsl(var(--success))",
+          foreground: "hsl(var(--success-foreground))",
+        },
+        warning: {
+          DEFAULT: "hsl(var(--warning))",
+        },
+      },
+      fontFamily: {
+        sans: ['Outfit', 'sans-serif'],
       },
       borderRadius: {
         lg: "var(--radius)",
